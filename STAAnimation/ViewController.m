@@ -18,7 +18,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     UILabel *lable = [[UILabel alloc]init];
-    
+    lable.text = @"test";
+    [self.view addSubview:lable];
 
 }
 
